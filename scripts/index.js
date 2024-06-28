@@ -33,7 +33,7 @@ let menu = {
   menuList.appendChild(unselected);
   
   for (let item in menu) {
-      let theOption = new Option(item,item)
+      let theOption = new Option(item,item);
       menuList.appendChild(theOption);
   }
 
